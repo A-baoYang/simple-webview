@@ -102,11 +102,11 @@ function sendGenericMessage(sender) {
                         "title": "FB Chatbot Group"
                     }, {
                         "type": "web_url",
-                        "url": "https://www.reddit.com/r/Chat_Bots/",
+                        "url": "https://desolate-refuge-77663.herokuapp.com/form",
                         "title": "Chatbots on Reddit"
                     },{
                         "type": "web_url",
-                        "url": "https://twitter.com/aichatbots",
+                        "url": "https://abaoyang.typeform.com/to/Qe6l9j",
                         "title": "Chatbots on Twitter"
                     }],
                 }, {
