@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/form', function (req, res) {
-    res.send(form.hjs)
+    res.send('<form name="form "action="/form" method="post">預約日期：<input type="date" name="date" /><br>預約時段：<input type="time" name="time" /><br>預約人數：<input type="number" name="number" min="1" max="10" /><br>使用臉書姓名預約？<input type="checkbox" name="who" value="yes">沒錯！<br><input type="submit" value="Submit" /></form>')
 })
 
 // for Facebook verification
