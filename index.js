@@ -100,8 +100,7 @@ function sendGenericMessage(sender) {
                         "type": "web_url",
                         "url": "https://desolate-refuge-77663.herokuapp.com/form",
                         "title": "立即預約餐廳",
-                        "webview_height_ratio": 'tall',
-                        "messenger_extensions": true
+                        webview_height_ratio: 'tall'
                     }]
                 }]
             } 
