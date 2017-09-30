@@ -54,7 +54,7 @@ app.post('/webhook/', function (req, res) {
     res.sendStatus(200)
 })
 
-var token = " enter token here"
+var token = "EAAByyLDEoPUBAF965SLg5xEvo6q5KC0lQfgpOpPTcRkUMtj8uDOIZCpEXW6Vrvi8Nf0jzDWXxICAzqJfOTmSlZByXYNUCJPkgCnQeI8Q7NhL6N5hwRBa7WzoZClaKyHotsCZAATza0cbFDXXSEbTs1MRZB6rGYSk8IjBIqkXf8wZDZD"
 
 // function to echo back messages - added by Stefan
 
