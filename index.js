@@ -99,7 +99,9 @@ function sendGenericMessage(sender) {
                     }, {
                         "type": "web_url",
                         "url": "https://www.reddit.com/r/Chat_Bots/",
-                        "title": "Chatbots on Reddit"
+                        "title": "Chatbots on Reddit",
+                        "webview_height_ratio": 'tall',
+                        "messenger_extensions": true,
                     },{
                         "type": "web_url",
                         "url": "https://twitter.com/aichatbots",
