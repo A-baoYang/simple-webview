@@ -99,11 +99,9 @@ function sendGenericMessage(sender) {
                     "buttons": [{
                         "type": "web_url",
                         "url": "https://desolate-refuge-77663.herokuapp.com/form",
-                        "title": "立即預約餐廳"
-                    },{
-                        "type": "web_url",
-                        "url": "https://abaoyang.typeform.com/to/Qe6l9j",
-                        "title": "外開表單預約哈哈哈哈超爛"
+                        "title": "立即預約餐廳",
+                        "webview_height_ratio": 'tall',
+                        "messenger_extensions": true,
                     }],
                 }]  
             } 
