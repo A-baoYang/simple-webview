@@ -16,6 +16,10 @@ app.get('/', function (req, res) {
     res.send('Hello world, I am a chat bot')
 })
 
+app.get('/form', function (req, res) {
+    res.send('form')
+})
+
 // for Facebook verification
 app.get('/webhook/', function (req, res) {
     if (req.query['hub.verify_token'] === 'Aha_Moment_Labs_simple') {
@@ -99,9 +103,7 @@ function sendGenericMessage(sender) {
                     }, {
                         "type": "web_url",
                         "url": "https://www.reddit.com/r/Chat_Bots/",
-                        "title": "Chatbots on Reddit",
-                        "webview_height_ratio": 'tall',
-                        "messenger_extensions": true,
+                        "title": "Chatbots on Reddit"
                     },{
                         "type": "web_url",
                         "url": "https://twitter.com/aichatbots",
