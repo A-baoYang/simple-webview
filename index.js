@@ -95,10 +95,10 @@ function sendGenericMessage(sender) {
                 "elements": [{
                     "title": "懶人預約餐廳，一指搞定！",
                     "subtitle": "快沒位子囉！！",
-                    "image_url": "https://tctechcrunch2011.files.wordpress.com/2016/04/facebook-chatbots.png?w=738",
+                    "image_url": "https://img2.10bestmedia.com/static/img/placeholder-restaurants.jpg",
                     "buttons": [{
                         "type": "web_url",
-                        "url": "https://desolate-refuge-77663.herokuapp.com/form",
+                        "url": "https://jiunyiyang.github.io/reserveBotWebview/",
                         "title": "立即預約餐廳",
                         webview_height_ratio: 'tall'
                     }]
